@@ -1,15 +1,9 @@
 package GitHub.GitHub;
 
-import java.util.Scanner;
-
-public class AppTest 
+class AppTest 
 {
-
-
-	public static void main(String[] args)
+	public static void main(final String[] args)
 	{
-
-		
 		int i=1;
 		int j;
 		while(i<=5)
@@ -55,5 +49,5 @@ public class AppTest
 		}             
 
 
-			}
+	}
 }
