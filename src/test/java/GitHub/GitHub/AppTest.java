@@ -9,18 +9,13 @@ public class AppTest
 	public static void main(String[] args)
 	{
 
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter N : ");
-		int n=sc.nextInt();	 
-		System.out.print("Enter Symbol : ");
-
-		char c = sc.next().charAt(0);
+		
 		int i=1;
 		int j;
-		while(i<=n)
+		while(i<=5)
 		{
 			j=1;
-			while(j++<=n-i)
+			while(j++<=5-i)
 
 			{
 				System.out.print(" ");
@@ -30,18 +25,18 @@ public class AppTest
 			while(j++<=i*2-1)
 
 			{
-				System.out.print(c);
+				System.out.print("*");
 
 			}
 
 			System.out.println();
 			i++;
 		}   
-		i=n-1;
+		i=5-1;
 		while(i>0)
 		{
 			j=1;
-			while(j++<=n-i)
+			while(j++<=5-i)
 
 			{
 				System.out.print(" ");
@@ -51,7 +46,7 @@ public class AppTest
 			while(j++<=i*2-1)
 
 			{
-				System.out.print(c);
+				System.out.print("*");
 
 			}
 
@@ -60,6 +55,5 @@ public class AppTest
 		}             
 
 
-		sc.close();
-	}
+			}
 }
